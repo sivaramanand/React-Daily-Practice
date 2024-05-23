@@ -1,0 +1,26 @@
+.maindiv{
+    min-height: 100vh;
+}
+.FirstSelect{
+    width: 150px;
+}
+.SecondSelect{
+    width: 150px;
+}
+.mainflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+
+    
+}
+.FirstSelectFlex{
+    display: flex;
+    flex-direction: column;
+}
+.SecondSelectFlex{
+    display: flex;
+    flex-direction: column;
+}

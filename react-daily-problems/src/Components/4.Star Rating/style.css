@@ -1,0 +1,12 @@
+.star-rating .active {
+    color: yellow;
+  }
+  
+  .star-rating {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star-rating .fa-star {
+    cursor: pointer;
+  }

@@ -11,7 +11,7 @@ const ImageSlider = ({ url, limit }) => {
       try {
         setLoading(true);
   
-        const response = await fetch(`${getUrl}?page=1&limit=${limit}`);
+        const response = await fetch(`${getUrl}?page=2&limit=${limit}`);
         const data = await response.json();
   
         if (data) {

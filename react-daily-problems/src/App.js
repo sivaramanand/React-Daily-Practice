@@ -6,10 +6,11 @@ import ConditionalDropDowns from "./Components/3.Conditional Dropdowns";
 import StarRating from "./Components/4.Star Rating/Index";
 import ImageSlider from "./Components/5.Image Slider";
 import Index from "./Components/101.flex check";
+import LoadMore from "./Components/6.load more";
 function App() {
   return (
     <div className="App">
-      <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} />
+      <LoadMore />
     </div>
   );
 }

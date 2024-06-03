@@ -7,10 +7,11 @@ import StarRating from "./Components/4.Star Rating/Index";
 import ImageSlider from "./Components/5.Image Slider";
 import Index from "./Components/101.flex check";
 import LoadMore from "./Components/6.load more";
+import QrCodeGenerator from "./Components/7. Qr code generator/Index";
 function App() {
   return (
     <div className="App">
-      <LoadMore />
+      <QrCodeGenerator />
     </div>
   );
 }

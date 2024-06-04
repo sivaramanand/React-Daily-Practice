@@ -8,10 +8,11 @@ import ImageSlider from "./Components/5.Image Slider";
 import Index from "./Components/101.flex check";
 import LoadMore from "./Components/6.load more";
 import QrCodeGenerator from "./Components/7. Qr code generator/Index";
+import CustomScrollIndicator from "./Components/8.Custom Scroll Indicator";
 function App() {
   return (
     <div className="App">
-      <QrCodeGenerator />
+      <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }

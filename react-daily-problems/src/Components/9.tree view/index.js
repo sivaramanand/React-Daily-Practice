@@ -1,10 +1,10 @@
-import React from "react";
-import menus from "./data";
-import "./style.css";
-const treeview = () => {
-  return (
-    <div></div>
-  )
-};
+import MenuList from "./menulist";
+import './style.css'
 
-export default treeview;
+export default function TreeView({ menus = [] }) {
+  return (
+    <div className="tree-view-container">
+      <MenuList list={menus} />
+    </div>
+  );
+}

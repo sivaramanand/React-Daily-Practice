@@ -13,6 +13,11 @@ import CustomScrollIndicator from "./Components/8.Custom Scroll Indicator";
 import GithubProfileFinder from "./Components/10.github profile finder";
 import menus from "./Components/9.tree view/data";
 import MusicPlayer from "./Components/11.music player";
+import Index1 from "./Components/12.tip calculator";
+import App1 from "./Components/13.countdown and stopwatch/stopwatch/Main";
+import Todolist from "./Components/14. to do list";
+import CurrencyConverter from "./Components/15.currency converter";
+import Weather from "./Components/16.weather app";
 function App() {
   return (
     <div className="App">
@@ -20,7 +25,12 @@ function App() {
       {/*<GithubProfileFinder></GithubProfileFinder>*/}
       {/* Tree view component/menu UI component / recursive navigation menu */}
       {/*<TreeView menus={menus} />*/}
-      <MusicPlayer></MusicPlayer>
+      {/*<MusicPlayer></MusicPlayer>*/}
+      {/*<Index1 />*/}
+      {/*<App1 />*/}
+      {/*<Todolist />*/}
+      {/*<CurrencyConverter />*/}
+      <Weather />
     </div>
   );
 }

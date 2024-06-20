@@ -1,0 +1,89 @@
+/* TestimonialSlider.css */
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .testimonial {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
+  }
+  
+  .testimonial h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .testimonial h4 {
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .testimonial p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .testimonial p.rating {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 15px;
+  }
+  
+  .slider-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  
+  .slider-buttons button {
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slider-buttons button:hover {
+    background-color: rgba(0, 123, 255, 1);
+  }
+  
+  .slider-buttons button:focus {
+    outline: none;
+  }
+  
+  .slider-buttons button:disabled {
+    background-color: rgba(0, 123, 255, 0.3);
+    cursor: not-allowed;
+  }
+  

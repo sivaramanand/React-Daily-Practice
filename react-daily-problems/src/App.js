@@ -19,6 +19,7 @@ import Todolist from "./Components/14. to do list";
 import CurrencyConverter from "./Components/15.currency converter";
 import NewsApp from "./Components/16.news app";
 import Testimonialslider from "./Components/17.testimonial slider/testimonial slider";
+import Tictactoe  from "./Components/18.tic tac toe";
 function App() {
   return (
     <div className="App">
@@ -32,7 +33,8 @@ function App() {
       {/*<Todolist />*/}
       {/*<CurrencyConverter />*/}
       {/*<NewsApp />*/}
-      <Testimonialslider />
+      {/*<Testimonialslider />*/}
+      <Tictactoe/>
     </div>
   );
 }

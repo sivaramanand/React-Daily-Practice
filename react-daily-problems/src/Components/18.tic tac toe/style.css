@@ -1,0 +1,35 @@
+.firstrow,
+.secondrow,
+.thirdrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstrow :nth-child(even) {
+  background-color: rgb(198, 198, 198);
+}
+
+.secondrow :nth-child(odd) {
+  background-color: rgb(198, 198, 198);
+}
+.thirdrow :nth-child(even) {
+  background-color: rgb(198, 198, 198);
+}
+.board-container{
+    padding-top: 50px;
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  cursor: pointer;
+}
+.winner{
+    color: Red;
+    margin-top: 20px;
+    font-size: 30px;
+}

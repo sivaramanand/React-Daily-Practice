@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"; // Import CSS for react-toastify
 
 const Tictactoe = () => {
   const [state, setState] = useState(Array(9).fill(null));
@@ -28,9 +29,8 @@ const Tictactoe = () => {
   const fillMove = (index) => {
     if (state[index] || isWinner) {
       toast.error("Cant modify alreeady modified!", {
-        position: "top-left",
+        position: "top-right",
       });
-
       return;
     }
     const copyindex = [...state];
@@ -84,6 +84,7 @@ const Tictactoe = () => {
       )}
 
       {isWinner && <div className="winner">Winner is {isWinner}</div>}
+      <ToastContainer />
     </div>
   );
 };

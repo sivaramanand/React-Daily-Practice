@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .maindiv {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    overflow: auto;
+    max-height: 90vh; /* Ensure it doesn't exceed the viewport height */
+  }
+  
+  .formdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px; /* Added margin to separate from results */
+  }
+  
+  .firstn,
+  .secondn {
+    padding: 12px;
+    border: 1px solid #b2ebf2;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  .button {
+    padding: 12px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #004d40;
+  }
+  
+  .answerrow {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #e0f2f1;
+    border-radius: 6px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .answerrow div {
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+  
+  .answerrow div:last-child {
+    font-weight: bold;
+    border-color: #00796b;
+    color: #00796b;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  

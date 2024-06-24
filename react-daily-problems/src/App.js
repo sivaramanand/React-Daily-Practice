@@ -21,6 +21,7 @@ import NewsApp from "./Components/16.news app";
 import Testimonialslider from "./Components/17.testimonial slider/testimonial slider";
 import Tictactoe from "./Components/18.tic tac toe";
 import Notesapp from "./Components/19 notes appp";
+import FlamesGame from "./Components/21.Flames Game";
 function App() {
   return (
     <div className="App">
@@ -36,7 +37,8 @@ function App() {
       {/*<NewsApp />*/}
       {/*<Testimonialslider />*/}
       {/*<Tictactoe/>*/}
-      <Notesapp />
+      {/*<Notesapp />*/}
+      <FlamesGame />
     </div>
   );
 }
